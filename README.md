@@ -57,6 +57,8 @@
 
 ##### Things to remember : `"requirements.txt"`
 
+### Edit : when you are facing an issue of this : `Traceback (most recent call last): File "src/components/data_ingestion.py", line 3, in <module> from src.exception import CustomException ModuleNotFoundError: No module named 'src'` - * *Solution* * : "pip install -e ." inside the terminal.
+
 * when you want to trigger "setup.py" inside the requirements.txt file then you mention "-e .", if not then you just # "-e ." when you are directly trying to run the setup.py file (This second one can be # when you are trying to deploy it on the cloud.)
 
 * you can use `pip install -r requirements.txt` to run all the packages, but if you are using it on the deployment stage then make sure you hastag this #-e .
@@ -110,4 +112,8 @@ Dataset Source Link :
 
 ### Check this link for details : [American Gem Society](https://www.americangemsociety.org/ags-diamond-grading-system/)
 
-###
+### ALWAYS Run "pip install -e ." this will trigger the setup file. 
+
+
+##### DEPLOYMENT - AWS - ELASTIC BEAN STALK + CODEPIPELINE
+
