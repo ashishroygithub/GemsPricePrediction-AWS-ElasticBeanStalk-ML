@@ -117,3 +117,11 @@ Dataset Source Link :
 
 ##### DEPLOYMENT - AWS - ELASTIC BEAN STALK + CODEPIPELINE
 
+* `Step 1` : Build Environment on Elastic Bean stock > create application > create Environment > choose Python > 3.8 > create Environment
+
+* `Step 2` : Build A code Pipeline : Give Pipeline name > choose source provider (Github) > Connect your github > choose your repo and branch > skip build stage > Deploy provider (choose Elastic bean stock and fill in the info) > Create Pipeline.
+
+
+#### IMPORTANT : .ebextensions is very important folder as it contains python.config file and it helps to push it to the EBS platform (and change app.py to application.py)
+
+
