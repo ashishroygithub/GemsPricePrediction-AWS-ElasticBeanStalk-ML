@@ -132,12 +132,12 @@ AWS Elastic Beanstalk link : [http://gemstonepriceprediction-mlprojec-env.eba-hm
 
 # Screenshot of UI
 
-![HomepageUI](./Screenshots/HomepageUI.jpg)
+![HomepageUI](./screenshots/HomepageUI.jpg)
 
 
 # Postman Testing of API :
 
-![API Prediction](./Screenshots/APIPrediction.jpg)
+![API Prediction](./screenshots/APIPrediction.jpg)
 
 
 # Approach for the project 
