@@ -52,6 +52,16 @@
 * `Step 2` : If you are getting permission denied response then you can use the below to solve the issue.
 
     * git remote set-url origin https://user_name@github.com/username/repository_name.git
+ 
+* `Step 3` : Scenario : If you are creating a new folder with a different project and you want to create another new repository and clone another new local repository. What do you do?
+     * git remote -v (here you need to check which repository is reflecting, if the old_repository is reflecting then go to the next step)
+     * git remote set-url origin https://user_name@github.com/username/new_repository_name.git
+     * git remote -v
+     * git init
+     * git remote add origin https://github.com/ashishroygithub/new_repository_name.git
+     * git branch -M main
+     * git push -u origin main
+     * git status
 
 ##### MAPPING HAS BEEN COMPLETED.
 
